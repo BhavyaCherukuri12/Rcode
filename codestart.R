@@ -33,3 +33,8 @@ nchar(y)
 nchar(b)
 
 nchar(505)
+
+date1<-as.Date("2019-03-08")
+date1
+class(date1)
+as.numeric(date1)
