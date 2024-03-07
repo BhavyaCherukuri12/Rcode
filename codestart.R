@@ -1,6 +1,20 @@
 a<-5
 a
 
+d<-'string'
+d
+y<-5
+y
+
+a1<-b<-7
+#for removing value
+rm(a1)
+
+x<-5
+class(x)
+
+is.numeric(d)
+
 
 X<-6
 class(X)
@@ -64,5 +78,13 @@ is.logical(k1)
 #for the string type is char
 v1<-c(10,150,30,40,55.6)
 v1
+
+V2<-assign('a',c(10,50,7.9,79,4.89))
+V2
+
+V3=c(20,89,56,78.9)
+V3
+
+c(17,90,67,55,23,78.1)->v4
 
 
